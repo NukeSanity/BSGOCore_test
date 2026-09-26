@@ -87,8 +87,6 @@ sqlite
 sqlite/bgo_server.db
 sqlite/counters_queries/bgo_server.db
 
-/ServerConfigurationUtils/*
-/ServerConfigurationUtils/**
 
 # ignore everything in certs
 /certs/*
@@ -97,4 +95,3 @@ sqlite/counters_queries/bgo_server.db
 !/certs/generate-certs.sh
 /observability/grafana-data/
 /observability/loki-data/
-/csharpcode/
