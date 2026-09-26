@@ -83,14 +83,30 @@ public class SessionRegistry
 
     public Optional<Session> getSession(final String sessionCode)
     {
-        readLock();
+        writeLock();
         try
         {
+            if (gameServerParamsConfig.sessionSettings().ignoreSession())
+            {
+                for (String debugSession : gameServerParamsConfig.sessionSettings().sessions())
+                {
+                    var splitRes = debugSession.split("@");
+                    if (!splitRes[1].equals(sessionCode))
+                        continue;
+                    final Session current = this.sessions.get(sessionCode);
+                    if (current == null
+                            || current.getSessionState() == Session.SessionState.Expired
+                            || (current.getSessionState() == Session.SessionState.Created && !current.isValid(TIME_SESSION_VALID)))
+                    {
+                        this.sessions.put(sessionCode, new Session(Long.parseLong(splitRes[0]), sessionCode));
+                    }
+                }
+            }
             return Optional.ofNullable(this.sessions.get(sessionCode));
         }
         finally
         {
-            readUnlock();
+            writeUnlock();
         }
     }
     public Set<Session> getSessions(final long userID)

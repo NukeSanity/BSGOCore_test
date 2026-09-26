@@ -57,8 +57,8 @@ public class LoginProtocolWriteOnly extends WriteOnlyProtocol
     {
         BgoProtocolWriter bw = newMessage();
         bw.writeMsgType(ServerMessage.Init.value);
-        //bw.writeUInt32(4578);
-        bw.writeUInt32(3);
+        bw.writeUInt32(4578);
+        //bw.writeUInt32(3);
         return bw;
     }
 
