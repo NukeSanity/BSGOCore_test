@@ -1,11 +1,14 @@
 {
-  "_comment": "COLLIDER TEMPLATE for 'galactica'. Read by ColliderTemplateReader.java (single object per file). Type 'Sphere': center + radius define a bounding sphere. Used for hit detection / collision on this NPC or space object.",
-  "prefabName": "galactica",
-  "type": "Sphere",
-  "center": {
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.0
-  },
-  "radius": 1200.0
+	"center": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+	"extents": {
+                "x": 200,
+                "y": 75,
+                "z": 600
+            },
+    "prefabName": "galactica",
+    "type": "AABB"
 }
