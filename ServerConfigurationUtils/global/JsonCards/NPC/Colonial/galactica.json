@@ -1,0 +1,127 @@
+[
+  {
+    "CubitOnlyRepair": false,
+    "Durability": 5000000,
+    "Faction": "Colonial",
+    "HangarID": -1,
+    "ImmutableSlots": [],
+    "Level": 1,
+    "LevelRequirement": 0,
+    "MaxLevel": 1,
+    "PaperdollUiLayoutfile": "",
+    "ParentHangarID": -1,
+    "ShipObjectKey": 3608800,
+    "ShipRoleDeprecated": "Mothership",
+    "ShipRoles": [
+      "Mothership"
+    ],
+    "Slots": [],
+    "Stats": {
+      "stats": {
+        "ArmorValue": 500,
+        "Avoidance": 0,
+        "CriticalDefense": 500,
+        "DradisRange": 20000,
+        "FirewallRating": 1000,
+        "HullRecovery": 100,
+        "MaxHullPoints": 500000,
+        "MaxPowerPoints": 50000,
+        "PowerRecovery": 500,
+        "Speed": 0,
+        "TurnSpeed": 0
+      }
+    },
+    "Tier": 4,
+    "VariantHangarIDs": [],
+    "cardGUID": 3608800,
+    "cardView": 10,
+    "cardView2": "Ship",
+    "nextShipCardGuid": 0,
+    "IsCapitalShip": false,
+    "StaticBuffs": {
+      "stats": {}
+    },
+    "counterCardGuid": 0
+  },
+  {
+    "args": [],
+    "cardGUID": 3608800,
+    "cardView": 1,
+    "cardView2": "GUI",
+    "frameIndex": 0,
+    "guiAtlasTexturePath": "GUI/AbilityToolbar/abilities_atlas",
+    "guiAvatarSlotTexturePath": "GUI/Slots/galactica",
+    "guiIcon": "",
+    "guiTexturePath": "",
+    "key": "npc_galactica",
+    "level": 0
+  },
+  {
+    "cardGUID": 3608800,
+    "cardView": 28,
+    "cardView2": "Movement",
+    "maxPitch": 360,
+    "maxRoll": 80,
+    "minYawSpeed": 0.1,
+    "pitchFading": 1.0,
+    "rollFading": 1.0,
+    "yawFading": 1.0
+  },
+  {
+    "cardGUID": 3608800,
+    "cardView": 4,
+    "cardView2": "World",
+    "forceShowOnMap": true,
+    "frameIndex": 13,
+    "lodCount": 3,
+    "prefabName": "galactica",
+    "radius": 300,
+    "secondaryFrameIndex": 0,
+    "showBracketWhenInRange": true,
+    "spots": [],
+    "systemMapTexutres": "gui/map/map_objects",
+    "targetable": true
+  },
+  {
+    "DockRange": 10000,
+    "IsDockable": true,
+    "Level": 1,
+    "cardGUID": 3608800,
+    "cardView": 29,
+    "cardView2": "Owner",
+    "LootPoolId": 0,
+    "SkinId": 0
+  },
+  {
+    "ShipObjectKey": 3608800,
+    "ShipRoleDeprecated": "Mothership",
+    "ShipRoles": [
+      "Mothership"
+    ],
+    "Tier": 4,
+    "cardGUID": 3608800,
+    "cardView": 42,
+    "cardView2": "ShipLight"
+  },
+  {
+    "cardGUID": 3608800,
+    "cardView": 23,
+    "cardView2": "Price",
+    "Category": "Ship",
+    "ItemType": "Ship",
+    "Tier": 0,
+    "Faction": "Neutral",
+    "SortingNames": [],
+    "SortingWeight": 0,
+    "BuyPrice": {
+      "items": {}
+    },
+    "UpgradePrice": {
+      "items": {}
+    },
+    "SellPrice": {
+      "items": {}
+    },
+    "CanBeSold": false
+  }
+]
