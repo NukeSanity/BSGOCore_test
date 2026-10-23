@@ -1,0 +1,981 @@
+[
+  {
+    "cardGUID": 1655262337,
+    "cardView": 10,
+    "cardView2": "Ship",
+    "ShipObjectKey": 1655262337,
+    "Level": 1,
+    "HangarID": 6,
+    "MaxLevel": 2,
+    "LevelRequirement": 20,
+    "Durability": 35000.0,
+    "Tier": 3,
+    "ShipRoles": [
+      "Command"
+    ],
+    "ShipRoleDeprecated": "Command",
+    "PaperdollUiLayoutfile": "ship_cruiser_paperdoll_layouts",
+    "Slots": [
+      {
+        "SlotId": 0,
+        "ObjectPoint": "bullet01",
+        "ObjectPointServerHash": 49813,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 1,
+        "ObjectPoint": "bullet02",
+        "ObjectPointServerHash": 50321,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 2,
+        "ObjectPoint": "bullet03",
+        "ObjectPointServerHash": 19778,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 3,
+        "ObjectPoint": "bullet04",
+        "ObjectPointServerHash": 50370,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 4,
+        "ObjectPoint": "bullet05",
+        "ObjectPointServerHash": 21514,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 5,
+        "ObjectPoint": "bullet06",
+        "ObjectPointServerHash": 64121,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 6,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 7,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 8,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 9,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 10,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "hull",
+        "Level": 0
+      },
+      {
+        "SlotId": 11,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "hull",
+        "Level": 0
+      },
+      {
+        "SlotId": 12,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "engine",
+        "Level": 0
+      },
+      {
+        "SlotId": 13,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "engine",
+        "Level": 0
+      },
+      {
+        "SlotId": 17,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "ship_paint",
+        "Level": 0
+      },
+      {
+        "SlotId": 18,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "role",
+        "Level": 0
+      }
+    ],
+    "CubitOnlyRepair": false,
+    "VariantHangarIDs": [],
+    "ParentHangarID": -1,
+    "Stats": {
+      "stats": {
+        "MaxHullPoints": 3500.0,
+        "HullRecovery": 19.4,
+        "ArmorValue": 40.0,
+        "CriticalDefense": 100.0,
+        "Avoidance": 50.0,
+        "InertiaCompensation": 50.0,
+        "PitchAcceleration": 9.0,
+        "YawAcceleration": 9.0,
+        "RollAcceleration": 9.0,
+        "PitchMaxSpeed": 9.0,
+        "YawMaxSpeed": 9.0,
+        "RollMaxSpeed": 9.0,
+        "Acceleration": 2.0,
+        "Speed": 27.5,
+        "BoostSpeed": 42.5,
+        "BoostCost": 5.4,
+        "AccelerationMultiplierOnBoost": 1.5,
+        "FtlRange": 220.0,
+        "FtlCharge": 25.0,
+        "FtlCooldown": 30.0,
+        "FtlCost": 12.5,
+        "MaxPowerPoints": 650.0,
+        "PowerRecovery": 28.0,
+        "FirewallRating": 200.0,
+        "DradisRange": 4000.0,
+        "DetectionOuterRadius": 4000.0,
+        "DetectionVisualRadius": 1000.0,
+        "DetectionInnerRadius": 1500.0,
+        "MaxVitalPoints": 220.0,
+        "VitalRecovery": 1.4,
+        "DecayDamageFactor": 350.0,
+        "DecayResistance": 0.0,
+        "CargoHoldVolume": 13.0,
+        "CargoPickupDelay": 4.0,
+        "CargoDropoffDelay": 2.0,
+        "CargoLootDelay": 2.0,
+        "StrafeAcceleration": 0.0,
+        "StrafeMaxSpeed": 0.0,
+        "PenetrationStrength": 200.0,
+        "DurabilityBonus": 0.4,
+        "JumpTargetTransponderPowerPointCost": -150.0
+      }
+    },
+    "Faction": "Colonial",
+    "ImmutableSlots": [
+      {
+        "SlotId": 0,
+        "ObjectPointServerHash": 0,
+        "SystemType": "undefined",
+        "SystemKey": 3905561139,
+        "SystemLevel": 0,
+        "ConsumableKey": 0
+      }
+    ],
+    "nextShipCardGuid": 1116650940
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 1,
+    "cardView2": "GUI",
+    "key": "ship_cruiser",
+    "level": 1,
+    "guiAtlasTexturePath": "GUI/AbilityToolbar/abilities_atlas",
+    "frameIndex": 10,
+    "guiIcon": "",
+    "guiAvatarSlotTexturePath": "GUI/Slots/HumanT3Command",
+    "guiTexturePath": "",
+    "args": []
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 28,
+    "cardView2": "Movement",
+    "minYawSpeed": 0.1,
+    "maxPitch": 45.0,
+    "maxRoll": 15.0,
+    "pitchFading": 1.0,
+    "yawFading": 1.0,
+    "rollFading": 1.0
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 23,
+    "cardView2": "Price",
+    "Category": "Ship",
+    "ItemType": "Ship",
+    "Tier": 3,
+    "Faction": "Colonial",
+    "SortingNames": [],
+    "SortingWeight": 0,
+    "BuyPrice": {
+      "items": {
+        "215278030": 2000000.0
+      }
+    },
+    "UpgradePrice": {
+      "items": {
+        "264733124": 60000.0
+      }
+    },
+    "SellPrice": {
+      "items": {
+        "215278030": 1000000.0
+      }
+    },
+    "CanBeSold": true
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 4,
+    "cardView2": "World",
+    "prefabName": "HumanT3Command",
+    "lodCount": 3,
+    "radius": 80.0,
+    "spots": [
+      {
+        "objectPointServerHash": 49813,
+        "objectPointName": "bullet01",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -51.899521,
+          "y": 7.156886,
+          "z": -60.256889
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": -0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 50321,
+        "objectPointName": "bullet02",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -56.017841,
+          "y": 32.254299,
+          "z": 58.674759
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.608761,
+          "z": -0.0,
+          "w": -0.793353
+        }
+      },
+      {
+        "objectPointServerHash": 19778,
+        "objectPointName": "bullet03",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 1.1e-05,
+          "y": 2.4e-05,
+          "z": 122.750397
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": -1.0
+        }
+      },
+      {
+        "objectPointServerHash": 50370,
+        "objectPointName": "bullet04",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -8e-06,
+          "y": 2.4e-05,
+          "z": 122.609802
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": -1.0
+        }
+      },
+      {
+        "objectPointServerHash": 21514,
+        "objectPointName": "bullet05",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 56.29171,
+          "y": 32.35936,
+          "z": 58.51754
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.608761,
+          "z": 0.0,
+          "w": -0.793353
+        }
+      },
+      {
+        "objectPointServerHash": 64121,
+        "objectPointName": "bullet06",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 52.132641,
+          "y": 18.955139,
+          "z": -60.307701
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.707107,
+          "z": 0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 7123,
+        "objectPointName": "elitebullet07",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -49.494301,
+          "y": 22.69071,
+          "z": -4.103975
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": -0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 40453,
+        "objectPointName": "elitebullet08",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 49.573929,
+          "y": 22.493731,
+          "z": -1.851574
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.707107,
+          "z": 0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 45294,
+        "objectPointName": "sticker1",
+        "type": "Sticker",
+        "localPosition": {
+          "x": -29.668381,
+          "y": 31.114149,
+          "z": -108.280899
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": -0.0
+        }
+      },
+      {
+        "objectPointServerHash": 36077,
+        "objectPointName": "sticker2",
+        "type": "Sticker",
+        "localPosition": {
+          "x": -60.722229,
+          "y": 12.92565,
+          "z": 133.162292
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": -0.0
+        }
+      },
+      {
+        "objectPointServerHash": 13625,
+        "objectPointName": "sticker3",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 60.710209,
+          "y": 12.92565,
+          "z": 133.400497
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": -0.0
+        }
+      },
+      {
+        "objectPointServerHash": 42933,
+        "objectPointName": "sticker4",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 29.65469,
+          "y": 31.114149,
+          "z": -108.280899
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": -0.0
+        }
+      }
+    ],
+    "systemMapTexutres": "gui/map/map_objects",
+    "frameIndex": 6,
+    "secondaryFrameIndex": 0,
+    "targetable": true,
+    "showBracketWhenInRange": true,
+    "forceShowOnMap": false
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 29,
+    "cardView2": "Owner",
+    "IsDockable": false,
+    "DockRange": 0.0,
+    "Level": 1
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 31,
+    "cardView2": "Camera",
+    "DefaultZoom": 500.0,
+    "MinZoom": 250.0,
+    "MaxZoom": 1250.0,
+    "SoftTrembleSpeed": 35.0,
+    "HardTrembleSpeed": 70.0
+  },
+  {
+    "cardGUID": 1655262337,
+    "cardView": 42,
+    "cardView2": "ShipLight",
+    "ShipObjectKey": 1655262337,
+    "Tier": 3,
+    "ShipRoles": [
+      "Command"
+    ],
+    "ShipRoleDeprecated": "Command"
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 10,
+    "cardView2": "Ship",
+    "ShipObjectKey": 1116650940,
+    "Level": 2,
+    "HangarID": 6,
+    "MaxLevel": 2,
+    "LevelRequirement": 20,
+    "Durability": 70000.0,
+    "Tier": 3,
+    "ShipRoles": [
+      "Command"
+    ],
+    "ShipRoleDeprecated": "Command",
+    "PaperdollUiLayoutfile": "ship_cruiser_paperdoll_layouts",
+    "Slots": [
+      {
+        "SlotId": 0,
+        "ObjectPoint": "bullet01",
+        "ObjectPointServerHash": 49813,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 1,
+        "ObjectPoint": "bullet02",
+        "ObjectPointServerHash": 50321,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 2,
+        "ObjectPoint": "bullet03",
+        "ObjectPointServerHash": 19778,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 3,
+        "ObjectPoint": "bullet04",
+        "ObjectPointServerHash": 50370,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 4,
+        "ObjectPoint": "bullet05",
+        "ObjectPointServerHash": 21514,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 5,
+        "ObjectPoint": "bullet06",
+        "ObjectPointServerHash": 64121,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 6,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 7,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 8,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 9,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 10,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "hull",
+        "Level": 0
+      },
+      {
+        "SlotId": 11,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "hull",
+        "Level": 0
+      },
+      {
+        "SlotId": 12,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "engine",
+        "Level": 0
+      },
+      {
+        "SlotId": 13,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "engine",
+        "Level": 0
+      },
+      {
+        "SlotId": 14,
+        "ObjectPoint": "elitebullet07",
+        "ObjectPointServerHash": 7123,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 15,
+        "ObjectPoint": "elitebullet08",
+        "ObjectPointServerHash": 40453,
+        "SystemType": "weapon",
+        "Level": 0
+      },
+      {
+        "SlotId": 16,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "computer",
+        "Level": 0
+      },
+      {
+        "SlotId": 17,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "ship_paint",
+        "Level": 0
+      },
+      {
+        "SlotId": 18,
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673,
+        "SystemType": "role",
+        "Level": 0
+      }
+    ],
+    "CubitOnlyRepair": false,
+    "VariantHangarIDs": [],
+    "ParentHangarID": -1,
+    "Stats": {
+      "stats": {
+        "MaxHullPoints": 4550.0,
+        "HullRecovery": 35.0,
+        "ArmorValue": 40.0,
+        "CriticalDefense": 100.0,
+        "Avoidance": 50.0,
+        "InertiaCompensation": 50.0,
+        "PitchAcceleration": 9.0,
+        "YawAcceleration": 9.0,
+        "RollAcceleration": 9.0,
+        "PitchMaxSpeed": 9.0,
+        "YawMaxSpeed": 9.0,
+        "RollMaxSpeed": 9.0,
+        "Acceleration": 2.0,
+        "Speed": 27.5,
+        "BoostSpeed": 42.5,
+        "BoostCost": 5.4,
+        "AccelerationMultiplierOnBoost": 1.5,
+        "FtlRange": 220.0,
+        "FtlCharge": 25.0,
+        "FtlCooldown": 30.0,
+        "FtlCost": 12.5,
+        "MaxPowerPoints": 900.0,
+        "PowerRecovery": 30.0,
+        "FirewallRating": 200.0,
+        "DradisRange": 4000.0,
+        "DetectionOuterRadius": 4000.0,
+        "DetectionVisualRadius": 1000.0,
+        "DetectionInnerRadius": 1500.0,
+        "MaxVitalPoints": 220.0,
+        "VitalRecovery": 1.4,
+        "DecayDamageFactor": 350.0,
+        "DecayResistance": 0.0,
+        "CargoHoldVolume": 13.0,
+        "CargoPickupDelay": 4.0,
+        "CargoDropoffDelay": 2.0,
+        "CargoLootDelay": 2.0,
+        "StrafeAcceleration": 0.0,
+        "StrafeMaxSpeed": 0.0,
+        "PenetrationStrength": 200.0,
+        "DurabilityBonus": 0.4,
+        "JumpTargetTransponderPowerPointCost": -200.0
+      }
+    },
+    "Faction": "Colonial",
+    "ImmutableSlots": [
+      {
+        "SlotId": 0,
+        "ObjectPointServerHash": 0,
+        "SystemType": "undefined",
+        "SystemKey": 3905561139,
+        "SystemLevel": 0,
+        "ConsumableKey": 0
+      }
+    ],
+    "nextShipCardGuid": 0
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 1,
+    "cardView2": "GUI",
+    "key": "ship_cruiser",
+    "level": 2,
+    "guiAtlasTexturePath": "GUI/AbilityToolbar/abilities_atlas",
+    "frameIndex": 10,
+    "guiIcon": "",
+    "guiAvatarSlotTexturePath": "GUI/Slots/HumanT3Command",
+    "guiTexturePath": "",
+    "args": []
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 28,
+    "cardView2": "Movement",
+    "minYawSpeed": 0.1,
+    "maxPitch": 45.0,
+    "maxRoll": 15.0,
+    "pitchFading": 1.0,
+    "yawFading": 1.0,
+    "rollFading": 1.0
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 23,
+    "cardView2": "Price",
+    "Category": "Ship",
+    "ItemType": "Ship",
+    "Tier": 3,
+    "Faction": "Colonial",
+    "SortingNames": [],
+    "SortingWeight": 0,
+    "BuyPrice": {
+      "items": {
+        "215278030": 2000000.0
+      }
+    },
+    "UpgradePrice": {
+      "items": {
+        "264733124": 60000.0
+      }
+    },
+    "SellPrice": {
+      "items": {
+        "215278030": 1000000.0
+      }
+    },
+    "CanBeSold": true
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 4,
+    "cardView2": "World",
+    "prefabName": "HumanT3Command",
+    "lodCount": 3,
+    "radius": 80.0,
+    "spots": [
+      {
+        "objectPointServerHash": 49813,
+        "objectPointName": "bullet01",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -51.899521,
+          "y": 7.156886,
+          "z": -60.256889
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": -0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 50321,
+        "objectPointName": "bullet02",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -56.017841,
+          "y": 32.254299,
+          "z": 58.674759
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.608761,
+          "z": -0.0,
+          "w": -0.793353
+        }
+      },
+      {
+        "objectPointServerHash": 19778,
+        "objectPointName": "bullet03",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 1.1e-05,
+          "y": 2.4e-05,
+          "z": 122.750397
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": -1.0
+        }
+      },
+      {
+        "objectPointServerHash": 50370,
+        "objectPointName": "bullet04",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -8e-06,
+          "y": 2.4e-05,
+          "z": 122.609802
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": -1.0
+        }
+      },
+      {
+        "objectPointServerHash": 21514,
+        "objectPointName": "bullet05",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 56.29171,
+          "y": 32.35936,
+          "z": 58.51754
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.608761,
+          "z": 0.0,
+          "w": -0.793353
+        }
+      },
+      {
+        "objectPointServerHash": 64121,
+        "objectPointName": "bullet06",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 52.132641,
+          "y": 18.955139,
+          "z": -60.307701
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.707107,
+          "z": 0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 7123,
+        "objectPointName": "elitebullet07",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -49.494301,
+          "y": 22.69071,
+          "z": -4.103975
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": -0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 40453,
+        "objectPointName": "elitebullet08",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 49.573929,
+          "y": 22.493731,
+          "z": -1.851574
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.707107,
+          "z": 0.0,
+          "w": -0.707107
+        }
+      },
+      {
+        "objectPointServerHash": 45294,
+        "objectPointName": "sticker1",
+        "type": "Sticker",
+        "localPosition": {
+          "x": -29.668381,
+          "y": 31.114149,
+          "z": -108.280899
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": -0.0
+        }
+      },
+      {
+        "objectPointServerHash": 36077,
+        "objectPointName": "sticker2",
+        "type": "Sticker",
+        "localPosition": {
+          "x": -60.722229,
+          "y": 12.92565,
+          "z": 133.162292
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": -0.0
+        }
+      },
+      {
+        "objectPointServerHash": 13625,
+        "objectPointName": "sticker3",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 60.710209,
+          "y": 12.92565,
+          "z": 133.400497
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": -0.0
+        }
+      },
+      {
+        "objectPointServerHash": 42933,
+        "objectPointName": "sticker4",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 29.65469,
+          "y": 31.114149,
+          "z": -108.280899
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": -0.0
+        }
+      }
+    ],
+    "systemMapTexutres": "gui/map/map_objects",
+    "frameIndex": 6,
+    "secondaryFrameIndex": 0,
+    "targetable": true,
+    "showBracketWhenInRange": true,
+    "forceShowOnMap": false
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 29,
+    "cardView2": "Owner",
+    "IsDockable": false,
+    "DockRange": 0.0,
+    "Level": 1
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 31,
+    "cardView2": "Camera",
+    "DefaultZoom": 500.0,
+    "MinZoom": 250.0,
+    "MaxZoom": 1250.0,
+    "SoftTrembleSpeed": 35.0,
+    "HardTrembleSpeed": 70.0
+  },
+  {
+    "cardGUID": 1116650940,
+    "cardView": 42,
+    "cardView2": "ShipLight",
+    "ShipObjectKey": 1116650940,
+    "Tier": 3,
+    "ShipRoles": [
+      "Command"
+    ],
+    "ShipRoleDeprecated": "Command"
+  }
+]

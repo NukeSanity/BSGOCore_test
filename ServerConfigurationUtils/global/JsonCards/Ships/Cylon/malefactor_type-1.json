@@ -1,0 +1,748 @@
+[
+  {
+    "cardGUID": 235182222,
+    "cardView": 10,
+    "cardView2": "Ship",
+    "ShipObjectKey": 235182222,
+    "Level": 1,
+    "HangarID": 17,
+    "MaxLevel": 2,
+    "LevelRequirement": 10,
+    "Durability": 3500,
+    "Tier": 1,
+    "ShipRoles": [
+      "Stealth"
+    ],
+    "ShipRoleDeprecated": "Stealth",
+    "PaperdollUiLayoutfile": "ship_cylon_strike_stealth_paperdoll_layouts",
+    "Slots": [
+      {
+        "Level": 0,
+        "SlotId": 0,
+        "SystemType": "gun",
+        "ObjectPoint": "bullet01",
+        "ObjectPointServerHash": 49813
+      },
+      {
+        "Level": 0,
+        "SlotId": 2,
+        "SystemType": "gun",
+        "ObjectPoint": "bullet02",
+        "ObjectPointServerHash": 50321
+      },
+      {
+        "Level": 0,
+        "SlotId": 4,
+        "SystemType": "launcher",
+        "ObjectPoint": "bullet03",
+        "ObjectPointServerHash": 19778
+      },
+      {
+        "Level": 0,
+        "SlotId": 6,
+        "SystemType": "hull",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 7,
+        "SystemType": "hull",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 8,
+        "SystemType": "computer",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 10,
+        "SystemType": "engine",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 13,
+        "SystemType": "ship_paint",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 14,
+        "SystemType": "avionics",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 16,
+        "SystemType": "engine",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 17,
+        "SystemType": "role",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      }
+    ],
+    "CubitOnlyRepair": false,
+    "VariantHangarIDs": [],
+    "ParentHangarID": -1,
+    "Stats": {
+      "stats": {
+        "MaxHullPoints": 350,
+        "HullRecovery": 3,
+        "ArmorValue": 0,
+        "CriticalDefense": 60,
+        "Avoidance": 520,
+        "InertiaCompensation": 175,
+        "PitchAcceleration": 75,
+        "YawAcceleration": 90,
+        "RollAcceleration": 750,
+        "PitchMaxSpeed": 52,
+        "YawMaxSpeed": 50,
+        "RollMaxSpeed": 90,
+        "Acceleration": 13,
+        "Speed": 70,
+        "BoostSpeed": 90,
+        "BoostCost": 0.5,
+        "AccelerationMultiplierOnBoost": 1.25,
+        "FtlRange": 105,
+        "FtlCharge": 15,
+        "FtlCooldown": 35,
+        "FtlCost": 1,
+        "MaxPowerPoints": 120,
+        "PowerRecovery": 3,
+        "FirewallRating": 100,
+        "DradisRange": 2250,
+        "DetectionOuterRadius": 2250,
+        "DetectionVisualRadius": 225,
+        "DetectionInnerRadius": 1000,
+        "MaxVitalPoints": 70,
+        "VitalRecovery": 0.4,
+        "DecayDamageFactor": 50,
+        "DecayResistance": 0,
+        "CargoHoldVolume": 3,
+        "CargoPickupDelay": 4,
+        "CargoDropoffDelay": 2,
+        "CargoLootDelay": 2,
+        "StrafeAcceleration": 80,
+        "StrafeMaxSpeed": 30,
+        "PenetrationStrength": 100,
+        "AvoidanceFading": 0.75
+      }
+    },
+    "Faction": "Cylon",
+    "ImmutableSlots": [
+      {
+        "ObjectPointServerHash": 0,
+        "SlotId": 0,
+        "SystemType": "undefined",
+        "SystemKey": 3905561139,
+        "SystemLevel": 0,
+        "ConsumableKey": 0
+      }
+    ],
+    "nextShipCardGuid": 3820442511,
+    "IsCapitalShip": false,
+    "counterCardGuid": 0
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 1,
+    "cardView2": "GUI",
+    "key": "ship_cylon_strike_stealth",
+    "level": 1,
+    "guiAtlasTexturePath": "GUI/AbilityToolbar/abilities_atlas",
+    "frameIndex": 10,
+    "guiIcon": "",
+    "guiAvatarSlotTexturePath": "GUI/Slots/CylonT1Stealth",
+    "guiTexturePath": "",
+    "args": []
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 28,
+    "cardView2": "Movement",
+    "minYawSpeed": 0.1,
+    "maxPitch": 360,
+    "maxRoll": 80,
+    "pitchFading": 2,
+    "yawFading": 2,
+    "rollFading": 2
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 23,
+    "cardView2": "Price",
+    "Category": "Ship",
+    "ItemType": "Ship",
+    "Tier": 1,
+    "Faction": "Cylon",
+    "SortingNames": [],
+    "SortingWeight": 0,
+    "BuyPrice": {
+      "items": {
+        "130920111": 30000
+      }
+    },
+    "UpgradePrice": {
+      "items": {
+        "130920111": 35000
+      }
+    },
+    "SellPrice": {
+      "items": {
+        "130920111": 20000
+      }
+    },
+    "CanBeSold": true
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 4,
+    "cardView2": "World",
+    "prefabName": "CylonT1Stealth",
+    "lodCount": 3,
+    "radius": 15,
+    "spots": [
+      {
+        "objectPointServerHash": 49813,
+        "objectPointName": "bullet01",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -2.02463,
+          "y": 0.208,
+          "z": 2.340462
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.000504,
+          "w": -1
+        }
+      },
+      {
+        "objectPointServerHash": 50321,
+        "objectPointName": "bullet02",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 2.025008,
+          "y": 0.208,
+          "z": 2.340461
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.000504,
+          "w": -1
+        }
+      },
+      {
+        "objectPointServerHash": 19778,
+        "objectPointName": "bullet03",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -0.01355,
+          "y": 0.016299,
+          "z": 1.517462
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "w": 0.000504
+        }
+      },
+      {
+        "objectPointServerHash": 50370,
+        "objectPointName": "bullet04",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 1.5,
+          "y": -0.806,
+          "z": 0.315582
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "w": -0.000504
+        }
+      },
+      {
+        "objectPointServerHash": 55415,
+        "objectPointName": "sticker01",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 0,
+          "y": 0.404321,
+          "z": -1.228124
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": 0
+        }
+      },
+      {
+        "objectPointServerHash": 26734,
+        "objectPointName": "sticker02",
+        "type": "Sticker",
+        "localPosition": {
+          "x": -0.413933,
+          "y": 0.189623,
+          "z": -0.05753
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": 0
+        }
+      },
+      {
+        "objectPointServerHash": 2348,
+        "objectPointName": "sticker03",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 0.413932,
+          "y": 0.189623,
+          "z": -0.057529
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": 0
+        }
+      }
+    ],
+    "systemMapTexutres": "gui/map/map_objects",
+    "frameIndex": 1,
+    "secondaryFrameIndex": 0,
+    "targetable": true,
+    "showBracketWhenInRange": true,
+    "forceShowOnMap": false
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 29,
+    "cardView2": "Owner",
+    "IsDockable": false,
+    "DockRange": 0,
+    "Level": 1,
+    "Faction": ""
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 31,
+    "cardView2": "Camera",
+    "DefaultZoom": 25,
+    "MinZoom": 10,
+    "MaxZoom": 150,
+    "SoftTrembleSpeed": 80,
+    "HardTrembleSpeed": 130
+  },
+  {
+    "cardGUID": 235182222,
+    "cardView": 42,
+    "cardView2": "ShipLight",
+    "ShipObjectKey": "235182222",
+    "Tier": 1,
+    "ShipRoles": [
+      "Stealth"
+    ],
+    "ShipRoleDeprecated": "Stealth"
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 10,
+    "cardView2": "Ship",
+    "ShipObjectKey": 3820442511,
+    "Level": 2,
+    "HangarID": 17,
+    "MaxLevel": 2,
+    "LevelRequirement": 10,
+    "Durability": 4200,
+    "Tier": 1,
+    "ShipRoles": [
+      "Stealth"
+    ],
+    "ShipRoleDeprecated": "Stealth",
+    "PaperdollUiLayoutfile": "ship_cylon_strike_stealth_paperdoll_layouts",
+    "Slots": [
+      {
+        "Level": 0,
+        "SlotId": 0,
+        "SystemType": "gun",
+        "ObjectPoint": "bullet01",
+        "ObjectPointServerHash": 49813
+      },
+      {
+        "Level": 0,
+        "SlotId": 1,
+        "SystemType": "computer",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 2,
+        "SystemType": "gun",
+        "ObjectPoint": "bullet02",
+        "ObjectPointServerHash": 50321
+      },
+      {
+        "Level": 0,
+        "SlotId": 3,
+        "SystemType": "engine",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 4,
+        "SystemType": "launcher",
+        "ObjectPoint": "bullet03",
+        "ObjectPointServerHash": 19778
+      },
+      {
+        "Level": 0,
+        "SlotId": 6,
+        "SystemType": "hull",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 7,
+        "SystemType": "hull",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 8,
+        "SystemType": "computer",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 10,
+        "SystemType": "engine",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 13,
+        "SystemType": "ship_paint",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 14,
+        "SystemType": "avionics",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 16,
+        "SystemType": "engine",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      },
+      {
+        "Level": 0,
+        "SlotId": 17,
+        "SystemType": "role",
+        "ObjectPoint": "undefined",
+        "ObjectPointServerHash": 44673
+      }
+    ],
+    "CubitOnlyRepair": false,
+    "VariantHangarIDs": [],
+    "ParentHangarID": -1,
+    "Stats": {
+      "stats": {
+        "MaxHullPoints": 420,
+        "HullRecovery": 3.6,
+        "ArmorValue": 0,
+        "CriticalDefense": 60,
+        "Avoidance": 520,
+        "InertiaCompensation": 175,
+        "PitchAcceleration": 75,
+        "YawAcceleration": 90,
+        "RollAcceleration": 750,
+        "PitchMaxSpeed": 54,
+        "YawMaxSpeed": 52,
+        "RollMaxSpeed": 90,
+        "Acceleration": 15,
+        "Speed": 85,
+        "BoostSpeed": 100,
+        "BoostCost": 0.5,
+        "AccelerationMultiplierOnBoost": 2,
+        "FtlRange": 115,
+        "FtlCharge": 15,
+        "FtlCooldown": 35,
+        "FtlCost": 1,
+        "MaxPowerPoints": 150,
+        "PowerRecovery": 3.6,
+        "FirewallRating": 100,
+        "DradisRange": 2750,
+        "DetectionOuterRadius": 2750,
+        "DetectionVisualRadius": 225,
+        "DetectionInnerRadius": 1000,
+        "MaxVitalPoints": 70,
+        "VitalRecovery": 0.4,
+        "DecayDamageFactor": 50,
+        "DecayResistance": 0,
+        "CargoHoldVolume": 3,
+        "CargoPickupDelay": 4,
+        "CargoDropoffDelay": 2,
+        "CargoLootDelay": 2,
+        "StrafeAcceleration": 80,
+        "StrafeMaxSpeed": 30,
+        "PenetrationStrength": 110,
+        "AvoidanceFading": 0.75
+      }
+    },
+    "Faction": "Cylon",
+    "ImmutableSlots": [
+      {
+        "ObjectPointServerHash": 0,
+        "SlotId": 0,
+        "SystemType": "undefined",
+        "SystemKey": 3905561139,
+        "SystemLevel": 0,
+        "ConsumableKey": 0
+      }
+    ],
+    "nextShipCardGuid": 0,
+    "IsCapitalShip": false,
+    "counterCardGuid": 0
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 1,
+    "cardView2": "GUI",
+    "key": "ship_cylon_strike_stealth",
+    "level": 2,
+    "guiAtlasTexturePath": "GUI/AbilityToolbar/abilities_atlas",
+    "frameIndex": 10,
+    "guiIcon": "",
+    "guiAvatarSlotTexturePath": "GUI/Slots/CylonT1Stealth",
+    "guiTexturePath": "",
+    "args": []
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 28,
+    "cardView2": "Movement",
+    "minYawSpeed": 0.1,
+    "maxPitch": 360,
+    "maxRoll": 80,
+    "pitchFading": 2,
+    "yawFading": 2,
+    "rollFading": 2
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 23,
+    "cardView2": "Price",
+    "Category": "Ship",
+    "ItemType": "Ship",
+    "Tier": 1,
+    "Faction": "Cylon",
+    "SortingNames": [],
+    "SortingWeight": 0,
+    "BuyPrice": {
+      "items": {
+        "130920111": 30000
+      }
+    },
+    "UpgradePrice": {
+      "items": {
+        "130920111": 35000
+      }
+    },
+    "SellPrice": {
+      "items": {
+        "130920111": 40000
+      }
+    },
+    "CanBeSold": true
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 4,
+    "cardView2": "World",
+    "prefabName": "CylonT1Stealth",
+    "lodCount": 3,
+    "radius": 15,
+    "spots": [
+      {
+        "objectPointServerHash": 49813,
+        "objectPointName": "bullet01",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -2.02463,
+          "y": 0.208,
+          "z": 2.340462
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.000504,
+          "w": -1
+        }
+      },
+      {
+        "objectPointServerHash": 50321,
+        "objectPointName": "bullet02",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 2.025008,
+          "y": 0.208,
+          "z": 2.340461
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.000504,
+          "w": -1
+        }
+      },
+      {
+        "objectPointServerHash": 19778,
+        "objectPointName": "bullet03",
+        "type": "Weapon",
+        "localPosition": {
+          "x": -0.01355,
+          "y": 0.016299,
+          "z": 1.517462
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "w": 0.000504
+        }
+      },
+      {
+        "objectPointServerHash": 50370,
+        "objectPointName": "bullet04",
+        "type": "Weapon",
+        "localPosition": {
+          "x": 1.5,
+          "y": -0.806,
+          "z": 0.315582
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "w": -0.000504
+        }
+      },
+      {
+        "objectPointServerHash": 55415,
+        "objectPointName": "sticker01",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 0,
+          "y": 0.404321,
+          "z": -1.228124
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": 0
+        }
+      },
+      {
+        "objectPointServerHash": 26734,
+        "objectPointName": "sticker02",
+        "type": "Sticker",
+        "localPosition": {
+          "x": -0.413933,
+          "y": 0.189623,
+          "z": -0.05753
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": 0
+        }
+      },
+      {
+        "objectPointServerHash": 2348,
+        "objectPointName": "sticker03",
+        "type": "Sticker",
+        "localPosition": {
+          "x": 0.413932,
+          "y": 0.189623,
+          "z": -0.057529
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0.707107,
+          "z": 0.707107,
+          "w": 0
+        }
+      }
+    ],
+    "systemMapTexutres": "gui/map/map_objects",
+    "frameIndex": 1,
+    "secondaryFrameIndex": 0,
+    "targetable": true,
+    "showBracketWhenInRange": true,
+    "forceShowOnMap": false
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 29,
+    "cardView2": "Owner",
+    "IsDockable": false,
+    "DockRange": 0,
+    "Level": 1,
+    "Faction": ""
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 31,
+    "cardView2": "Camera",
+    "DefaultZoom": 25,
+    "MinZoom": 10,
+    "MaxZoom": 150,
+    "SoftTrembleSpeed": 80,
+    "HardTrembleSpeed": 130
+  },
+  {
+    "cardGUID": 3820442511,
+    "cardView": 42,
+    "cardView2": "ShipLight",
+    "ShipObjectKey": "3820442511",
+    "Tier": 1,
+    "ShipRoles": [
+      "Stealth"
+    ],
+    "ShipRoleDeprecated": "Stealth"
+  }
+]
